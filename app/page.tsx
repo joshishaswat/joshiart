@@ -6,7 +6,7 @@ function Header() {
 		<div>
 			<nav className="bg-white border-gray-200 dark:bg-gray-900">
 				<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-					<a className="flex items-center space-x-3 rtl:space-x-reverse text-gray-50">
+					<a className="flex font-bold items-center space-x-3 rtl:space-x-reverse text-gray-50">
 						<p>joshiart</p>
 					</a>
 					<button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -36,30 +36,33 @@ function Header() {
 }
 
 function Body() {
-	return (
+	return (		
 <section className="bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-12">
+	<div>
+		<h2 className="text-gray-50 text-l font-semibold text-center mb-8">Free Shipping! </h2>
+	</div>
   <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
-		
+
       <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <div className="h-56 w-full">
           <a href="#">
-            <img className="mx-auto h-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg" alt="" />
-            <img className="mx-auto hidden h-full dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg" alt="" />
+            <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334767/Sail_ximuxd.png" alt="" />
+            <img className="mx-auto hidden h-full dark:block" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334767/Sail_ximuxd.png" alt="" />
           </a>
         </div>
         <div className="pt-6">
 
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Apple iMac 27", 1TB HDD, Retina 5K Display, M3 Max</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Dark Sailboat</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$1,699</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$45.00</p>
 
             <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
-              Add to cart
+              Buy
             </button>
           </div>
         </div>
@@ -67,23 +70,22 @@ function Body() {
       <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <div className="h-56 w-full">
           <a href="#">
-            <img className="mx-auto h-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-light.svg" alt="" />
-            <img className="mx-auto hidden h-full dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-dark.svg" alt="" />
+            <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334238/winter_cabin_wjg4wo.png" alt="" />
+            <img className="mx-auto hidden h-full dark:block" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334238/winter_cabin_wjg4wo.png" alt="" />
           </a>
         </div>
 
         <div className="pt-6">
-			<p>Spacer here</p>
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Apple iPhone 15 Pro Max, 256GB, Blue Titanium</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Winter House</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$1,199</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$35.00</p>
 
             <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
-              Add to cart
+              Buy
             </button>
           </div>
         </div>
@@ -91,23 +93,23 @@ function Body() {
       <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <div className="h-56 w-full">
           <a href="#">
-            <img className="mx-auto h-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/ipad-light.svg" alt="" />
-            <img className="mx-auto hidden h-full dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/ipad-dark.svg" alt="" />
+            <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334797/tree_1_ym6udi.png" alt="" />
+            <img className="mx-auto hidden h-full dark:block" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334797/tree_1_ym6udi.png" alt="" />
           </a>
         </div>
 
         <div className="pt-6">
 
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">iPad Pro 13-Inch (M4): XDR Display, 512GB</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Prairie Landscape</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$799</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$30.00</p>
 
             <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
-              Add to cart
+              Buy
             </button>
           </div>
         </div>
@@ -115,22 +117,22 @@ function Body() {
       <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
         <div className="h-56 w-full">
           <a href="#">
-            <img className="mx-auto h-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-light.svg" alt="" />
-            <img className="mx-auto hidden h-full dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/ps5-dark.svg" alt="" />
+            <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334606/winter_cabin_lake_1_hug0wn.png" alt="" />
+            <img className="mx-auto hidden h-full dark:block" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334606/winter_cabin_lake_1_hug0wn.png" alt="" />
           </a>
         </div>
 
         <div className="pt-6">
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">PlayStation®5 Console – 1TB, PRO Controller</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Winter House with Lake</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$499</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">SOLD</p>
 
             <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
-              Add to cart
+              Buy
             </button>
           </div>
         </div>
@@ -145,9 +147,9 @@ function Body() {
 function Footer() {
 	return (
 	<div>
-		<footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+		<footer className="bg-white shadow dark:bg-gray-800">
     		<div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      		<span className="text-sm text-gray-50 sm:text-center dark:text-gray-50">© 2024 <a href="https://flowbite.com/" className="hover:underline">joshiart™</a>. All Rights Reserved.
+      		<span className="text-sm text-gray-50 sm:text-center dark:text-gray-50">© 2024 joshiart™. All Rights Reserved.
     		</span>
     		<ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-50 dark:text-gray-50 sm:mt-0">
         		<li>
