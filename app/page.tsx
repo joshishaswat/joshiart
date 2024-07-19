@@ -4,9 +4,9 @@ function Header() {
 	return (
 	<div>
 		<div>
-			<nav className="bg-white border-gray-200 dark:bg-gray-900">
+			<nav className="bg-white border-gray-200 bg-slate-100">
 				<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-					<a className="flex font-bold items-center space-x-3 rtl:space-x-reverse text-gray-50">
+					<a className="flex font-bold items-center space-x-3 rtl:space-x-reverse text-stone-950">
 						<p>joshiart</p>
 					</a>
 					<button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -16,7 +16,7 @@ function Header() {
 						</svg>
 					</button>
 					<div className="hidden w-full md:block md:w-auto" id="navbar-default">
-						<ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+						<ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
 							<li>
 								<a href="https://www.instagram.com/shasjoshi/" target="_blank" className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
 									<svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -37,14 +37,14 @@ function Header() {
 
 function Body() {
 	return (		
-<section className="bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-12">
+<section className="bg-slate-100 py-8 antialiased md:py-12">
 	<div>
-		<h2 className="text-gray-50 text-l font-semibold text-center mb-8">Free Shipping! </h2>
+		<h2 className="text-stone-950 text-l font-semibold text-center mb-8">Free Shipping! </h2>
 	</div>
   <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
 
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+      <div className="rounded-lg border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-slate-100">
         <div className="h-56 w-full">
           <a href="#">
             <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334767/Sail_ximuxd.png" alt="" />
@@ -53,12 +53,12 @@ function Body() {
         </div>
         <div className="pt-6">
 
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Dark Sailboat</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline">Dark Sailboat</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$45.00</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900">$45.00</p>
 
-            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-gray-950 hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -67,7 +67,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+      <div className="rounded-lg border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-slate-100">
         <div className="h-56 w-full">
           <a href="#">
             <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334238/winter_cabin_wjg4wo.png" alt="" />
@@ -76,12 +76,12 @@ function Body() {
         </div>
 
         <div className="pt-6">
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Winter House</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline">Winter House</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$35.00</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900">$35.00</p>
 
-            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-gray-950 hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -90,7 +90,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+      <div className="rounded-lg border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-slate-100">
         <div className="h-56 w-full">
           <a href="#">
             <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334797/tree_1_ym6udi.png" alt="" />
@@ -100,12 +100,12 @@ function Body() {
 
         <div className="pt-6">
 
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Prairie Landscape</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline">Prairie Landscape</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">$30.00</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900">$30.00</p>
 
-            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-gray-950 hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -114,7 +114,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-gray-800">
+      <div className="rounded-lg border-gray-200 bg-white p-6 shadow-sm dark:border-gray-700 dark:bg-slate-100">
         <div className="h-56 w-full">
           <a href="#">
             <img className="mx-auto h-full dark:hidden" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334606/winter_cabin_lake_1_hug0wn.png" alt="" />
@@ -123,12 +123,12 @@ function Body() {
         </div>
 
         <div className="pt-6">
-          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline dark:text-white">Winter House with Lake</a>
+          <a href="#" className="text-lg font-semibold leading-tight text-gray-900 hover:underline">Winter House with Lake</a>
 
           <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-2xl font-extrabold leading-tight text-gray-900 dark:text-white">SOLD</p>
+            <p className="text-2xl font-extrabold leading-tight text-gray-900">SOLD</p>
 
-            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            <button type="button" className="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-gray-950 hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
               <svg className="-ms-2 me-2 h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h1.5L8 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm.75-3H7.5M11 7H6.312M17 4v6m-3-3h6" />
               </svg>
@@ -147,11 +147,11 @@ function Body() {
 function Footer() {
 	return (
 	<div>
-		<footer className="bg-white shadow dark:bg-gray-800">
+		<footer className="bg-slate-100 shadow">
     		<div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      		<span className="text-sm text-gray-50 sm:text-center dark:text-gray-50">© 2024 joshiart™. All Rights Reserved.
+      		<span className="text-sm text-stone-950 sm:text-center">© 2024 joshiart™. All Rights Reserved.
     		</span>
-    		<ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-50 dark:text-gray-50 sm:mt-0">
+    		<ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-stone-950 sm:mt-0">
         		<li>
             		<a href="#" className="hover:underline me-4 md:me-6">joshishaswat@gmail.com</a>
         		</li>
