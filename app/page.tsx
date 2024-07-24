@@ -1,5 +1,5 @@
 import "./index.css"
-import {BuyButtonComponent1, BuyButtonComponent2, BuyButtonComponent3} from './stripeButton'
+import {BuyButtonComponent1, BuyButtonComponent2, BuyButtonComponent3, BuyButtonComponent4} from './stripeButton'
 
 function Header() {
 	return (
@@ -38,6 +38,32 @@ function Body() {
 	</div>
   <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-3">
+
+    <div className="rounded-lg border-gray-200 bg-white p-2 shadow-md">
+        <div className="h-56 w-full">
+          <a>
+            <img className="mx-auto h-full" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721781261/lone_jellyfish-min_ndwfvl.png" alt="" />
+          </a>
+        </div>
+        <div className="pt-3">
+
+          <a className="text-lg font-semibold leading-tight text-gray-900">Lone Jellyfish</a>
+
+          <div className="mb-1 flex items-center justify-between gap-4">
+            <p className="text-sm py-0.5 pt-3 text-xs font-semibold">12in X 16in</p>
+          </div>
+
+          <div className="mb-12 flex items-center justify-between gap-4">
+            <p className="py-0.5 pt-0 text-xs font-semibold">Acrylic painting</p>
+          </div>
+
+          <div className="mt-4 flex items-center justify-between gap-4">
+            <p className="text-l font-extrabold leading-tight text-gray-900">$65.00</p>
+
+            <BuyButtonComponent4 />
+          </div>
+        </div>
+      </div>
 
       <div className="rounded-lg border-gray-200 bg-white p-2 shadow-md">
         <div className="h-56 w-full">
