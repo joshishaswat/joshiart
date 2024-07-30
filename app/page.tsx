@@ -114,30 +114,6 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="rounded-lg border-gray-200 bg-white p-2 shadow-md">
-        <div className="h-56 w-full">
-          <a>
-            <img className="mx-auto h-full" src="https://res.cloudinary.com/doc2bxwod/image/upload/v1721334606/winter_cabin_lake_1_hug0wn.png" alt="" />
-          </a>
-        </div>
-
-        <div className="pt-3">
-          <a className="text-lg font-semibold leading-tight text-gray-900">Winter House with Lake</a>
-
-          <div className="mb-1 flex items-center justify-between gap-4">
-            <p className="text-sm py-0.5 pt-3 text-xs font-semibold">8in X 12in</p>
-          </div>
-
-          <div className="mb-12 flex items-center justify-between gap-4">
-            <p className="py-0.5 pt-0 text-xs font-semibold">Acrylic painting</p>
-          </div>
-
-          <div className="mt-4 flex items-center justify-between gap-4">
-            <p className="text-l font-extrabold leading-tight text-gray-900">SOLD</p>
-
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   
@@ -153,6 +129,7 @@ export default function Home() {
           async
           src="https://js.stripe.com/v3/buy-button.js">
         </script>
+        <title>Buy Shaswat's Art</title>
       </head>
       <body>
         <Header />
